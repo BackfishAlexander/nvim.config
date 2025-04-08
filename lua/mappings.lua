@@ -9,7 +9,7 @@ map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 
 
-
+map('i', '<C-c>', '<Esc>', {noremap = true})
 
 -- Open floating diagnostics window
 map("n", "<leader>ce", vim.diagnostic.open_float, { desc = "Open floating diagnostics" })
